@@ -28,5 +28,5 @@ CMD ["npm", "run", "start"]
 # Build the Docker image
 # docker build -t tae .
 
-# Run the Docker container
+# Run the Docker Container
 # docker run -d -p 3000:3000 --env-file .env tae
