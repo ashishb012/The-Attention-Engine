@@ -30,3 +30,5 @@ CMD ["npm", "run", "start"]
 
 # Run the Docker Container
 # docker run -d -p 3000:3000 --env-file .env tae
+# docker tag <image-id> username/repo:tag
+# docker push username/repo:tag
